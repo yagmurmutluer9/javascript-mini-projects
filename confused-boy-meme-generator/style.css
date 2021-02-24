@@ -1,0 +1,56 @@
+. {
+    padding: 0;
+    margin: 0;
+}
+
+.form,
+.pic {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+}
+
+#butterfly_text,
+#bottom_text {
+    border: 1px solid red;
+    margin: 0px 10px 2px 0;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    width: 70px;
+    padding: 4px;
+    margin: 10px;
+    border-style: none;
+    font-size: 16px;
+}
+
+.pic {
+    position: absolute;
+}
+
+#txtItemUpper {
+    position: relative;
+    left: 60px;
+    max-width: 300px;
+    bottom: 70px;
+    background: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+#txtItemBottom {
+    position: relative;
+    left: 300px;
+    width: 100px;
+    bottom: 320px;
+    background: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.pic img {
+    height: 300px;
+    width: 450px;
+}
