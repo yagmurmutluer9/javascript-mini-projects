@@ -33,7 +33,7 @@ const sliderMove = (e) => {
 
     if (y_cor + 30 > height) {
         after_container.style.height = height + "px";
-        slider_updown.style.tom = height + "px";
+        slider_updown.style.top = height + "px";
     }
 }
 
