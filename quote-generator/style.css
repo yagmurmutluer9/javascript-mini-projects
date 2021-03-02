@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.page-hero {
+    height: 500px;
+    background-color: rgb(124, 88, 88);
+}
+
+.quote {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+
+h1,
+.author,
+button {
+    font-family: 'Merienda', cursive;
+}
+
+button {
+    border: none;
+    width: 20%;
+    display: flex;
+    padding: 10px;
+    background-color: burlywood;
+    justify-content: center;
+    font-size: large;
+}
+
+button.active {
+    background-color: rgb(77, 38, 38);
+}
+
+button.active:hover {
+    background-color: rgb(124, 88, 88);
+}
