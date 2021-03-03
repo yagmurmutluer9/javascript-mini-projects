@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+body {
+    background-color: burlywood;
+}
+
+button {
+    border: none;
+    width: 10%;
+    height: 5%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.category {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
